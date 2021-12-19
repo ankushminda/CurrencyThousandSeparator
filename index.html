@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Currency Thousand Separator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="main_cont">
+        <header>
+            <h1>Currency Thousand Converter</h1>
+        </header>
+        <form action="" method="post">
+            <input type="text" placeholder="Enter Number" name="number" id="number" onkeyup="thousandSeparator();" pattern="^\d*(\.\d{0,2})?$">
+        </form>
+        <div id="conversionButton">
+            <button id="button">Switch Format (IN/US)</button>
+        </div>
+        <p id="conversionIN"></p>
+        <p id="conversionUS"></p>
+    </div>
+    <script>
+        //Jquery Function for button Toggle
+        $(document).ready(function(){
+            $("#button").click(function(){
+                $("#conversionIN").slideToggle("100");
+                $("#conversionUS").slideToggle("100");
+            });
+        });
+    </script>
+</body>
+</html>
