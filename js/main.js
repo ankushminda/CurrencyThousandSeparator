@@ -28,12 +28,12 @@ function validateForm(x) {
 }
 
 
-
+//Function to convert a numeric value to words.
 var a = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen '];
 var b = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
 
 function inWords (num) {
-    if ((num = num.toString()).length > 9) return 'overflow';
+    if ((num = num.toString()).length > 9) return 'Maximum limit reached, only 9 digits allowed.';
     n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/);
     if (!n) return; var str = '';
     str += (n[1] != 0) ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'crore ' : '';
