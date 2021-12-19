@@ -4,7 +4,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Work Sans', Tahoma, sans-serif;
+    font-family: 'Mukta', 'Work Sans', Tahoma, sans-serif;
 }
 
 html {
@@ -14,25 +14,24 @@ html {
 body {
     min-height: 100vh;
     font-weight: 200;
-    background: #00a8ff;
+    background: #ff7979;
 }
 
 #main_cont {
-    background: rgba(0, 0, 0, 0.2);
+    /* background: rgba(0, 0, 0, 0.2); */
     min-height: 100vh;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.3);
+    background: #ff7979;
     padding: 5px 0;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 header h1 {
     text-align: center;
     color: #ffffff;
-    font-weight: 200;
-    
+    font-weight: 600;
 }
 form {
     width: 30%;
@@ -44,7 +43,7 @@ input {
     height: 40px;
     padding: 10px;
     font-size: 1.6em;
-    background: rgba(0, 0, 0, 0.3);
+    background: transparent;
     color: #ffffff;
     border: none;
     box-shadow: 1px 1px 40px 0px rgba(35, 35, 35, 0.4);
