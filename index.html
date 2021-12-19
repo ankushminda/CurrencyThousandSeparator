@@ -23,13 +23,15 @@
             <h1>Currency Thousand Separator</h1>
         </header>
         <form action="" method="post">
-            <input type="text" placeholder="Enter Number" name="number" id="number" onkeyup="thousandSeparator();" pattern="^\d*(\.\d{0,2})?$">
+            <input type="text" placeholder="Enter Number" name="number" id="number" onkeyup="thousandSeparator();" pattern="^\d*(\.\d{0,2})?$" maxlength="9">
         </form>
         <div id="conversionButton">
             <button id="button">Switch Format (IN/US)</button>
         </div>
         <p id="conversionIN"></p>
         <p id="conversionUS"></p>
+        <p id="words"></p>
+
     </div>
     <script>
         //Jquery Function for button Toggle

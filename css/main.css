@@ -96,3 +96,11 @@ input[type=number] {
 #conversionUS {
     display: none;
 }
+
+#words {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
