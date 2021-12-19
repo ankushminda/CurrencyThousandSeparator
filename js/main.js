@@ -1,3 +1,5 @@
+
+// Function to separate the number in thousand format.
 function thousandSeparator() {
     const x = document.getElementById("number").value;
     console.log(x);
@@ -11,6 +13,7 @@ function thousandSeparator() {
 }
 
 
+//Function to validate form input value if it's a valid number.
 function validateForm(x) {
     // Get the value of the input field with id="numb"
     //let x = document.getElementById("number").value;
