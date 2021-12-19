@@ -6,7 +6,8 @@ CurrencyThousandSeparator is a tiny JavaScript library which allows you to conve
 
 <h2>Screenshot:</h2>
 
-![Screen Shot 2021-12-19 at 19 17 56](https://user-images.githubusercontent.com/26448060/146677225-fc65000d-02a7-485e-8070-5533a5c460f0.png)
+![image](https://user-images.githubusercontent.com/26448060/146685164-632d19e2-4759-44c3-a134-313776cc899b.png)
+
 
 
 <h2>Issues/Feedback:</h2>
