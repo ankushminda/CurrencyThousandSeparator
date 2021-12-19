@@ -1,7 +1,7 @@
 # CurrencyThousandSeparator
 
 
-CurrencyThousandSeparator is a tiny JavaScript library which allows you to convert any numeric value to comma separated currency value. In this library you can convert the numeric value to either Indian locale (i.e. 10,00,00,000) or US locale (i.e. 100,000,000).
+CurrencyThousandSeparator is a tiny JavaScript project which allows you to convert any numeric value to comma separated currency value. In this library you can convert the numeric value to either Indian locale (i.e. 10,00,00,000) or US locale (i.e. 100,000,000).
 
 
 <h2>Screenshot:</h2>
